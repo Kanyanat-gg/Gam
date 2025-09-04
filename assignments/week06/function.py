@@ -37,9 +37,9 @@ return string ที่จัดรูปแบบข้อมูลผู้ใ
 def create_user_profile(username, age=18, premium=False):
     # Your Problem 3 solution
     if premium
-      return username +"(age:" + age + "-Premium User"
+      return username +("age:" + age + "-Premium User")
     else :
-      return username +"(age:" + age + "-Standard User"
+      return username +("age:" + age + "-Standard User")
     
    
 """ เขียน function ชื่อ analyze_scores ที่มีคุณสมบัติดังนี้:
@@ -86,7 +86,7 @@ def count_vowels_consonants(text):
     text = text.replace(" ", " ")
     text = text.lower()
     vowels = text.count('a') + text.count('e') + text.count('i') + text.count('o') + text.count('u')
-    nunbers = = text.count('0') + text.count('1') + text.count('2') + text.count('3') + text.count('4') + text.count('5') + text.count('6') + text.count('7') + text.count('8') + text.count('9')
+    nunbers =  text.count('0') + text.count('1') + text.count('2') + text.count('3') + text.count('4') + text.count('5') + text.count('6') + text.count('7') + text.count('8') + text.count('9')
     consonants = len(text) - vowels - nunbers
     return {
         "vowels": vowels,
