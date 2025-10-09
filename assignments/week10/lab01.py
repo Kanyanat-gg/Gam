@@ -84,6 +84,8 @@ print()
 print("Formatted Information:")
 print("Name: ", name.upper())
 if 18 <= age and age <= 30:
+    print("Age Group: Adult (18-30)")
 else:
    print("Age Group: Adult (18-30)")
+   
 print("Phone: +66-", phone)
